@@ -1,0 +1,200 @@
+/* Facebook-style Friend Card */
+
+.facebook-friend-card {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: box-shadow 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook-friend-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Avatar */
+.friend-avatar-container {
+  margin-bottom: 12px;
+}
+
+.friend-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #e9ecef;
+}
+
+/* User Info */
+.friend-info {
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 4px 0;
+  line-height: 1.2;
+}
+
+.friend-mutual {
+  font-size: 14px;
+  color: #65676b;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Action Buttons */
+.friend-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-view-profile,
+.btn-follow {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 36px;
+}
+
+.btn-view-profile {
+  background: #1877f2;
+  color: white;
+}
+
+.btn-view-profile:hover {
+  background: #166fe5;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-follow {
+  background: #e4e6ea;
+  color: #333;
+}
+
+.btn-follow:hover {
+  background: #d8dadf;
+}
+
+.btn-follow.following {
+  background: #42b883;
+  color: white;
+}
+
+.btn-follow.following:hover {
+  background: #3aa876;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .facebook-friend-card {
+    padding: 12px;
+  }
+  
+  .friend-avatar {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .friend-name {
+    font-size: 15px;
+  }
+  
+  .friend-mutual {
+    font-size: 13px;
+  }
+  
+  .btn-view-profile,
+  .btn-follow {
+    padding: 6px 12px;
+    font-size: 13px;
+    min-height: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .facebook-friend-card {
+    padding: 10px;
+  }
+  
+  .friend-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .friend-name {
+    font-size: 14px;
+  }
+  
+  .friend-mutual {
+    font-size: 12px;
+  }
+  
+  .btn-view-profile,
+  .btn-follow {
+    padding: 6px 10px;
+    font-size: 12px;
+    min-height: 30px;
+  }
+}
+
+/* Focus states for accessibility */
+.btn-view-profile:focus,
+.btn-follow:focus {
+  outline: 2px solid #1877f2;
+  outline-offset: 2px;
+}
+
+/* Loading state */
+.btn-view-profile:disabled,
+.btn-follow:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .facebook-friend-card {
+    background: #f8f9fa;
+    border-color: #e9ecef;
+  }
+  
+  .friend-avatar {
+    border-color: #e9ecef;
+  }
+  
+  .friend-name {
+    color: #333;
+  }
+  
+  .friend-mutual {
+    color: #65676b;
+  }
+  
+  .btn-follow {
+    background: #e4e6ea;
+    color: #333;
+  }
+  
+  .btn-follow:hover {
+    background: #d8dadf;
+  }
+}

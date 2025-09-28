@@ -1,0 +1,48 @@
+/* Professionals page styles */
+
+.prof-container {
+	max-width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.prof-title {
+	font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+}
+
+.prof-avatar {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+	border-radius: 9999px;
+}
+
+.prof-logo {
+	width: 32px;
+	height: 32px;
+	display: grid;
+	place-items: center;
+	background-image: linear-gradient(135deg, #5B21B6, #7C3AED);
+	border-radius: 16px;
+	color: #fff;
+}
+
+.prof-logo-lg {
+	width: 36px;
+	height: 36px;
+}
+
+.card-max {
+	max-width: 720px;
+}
+
+/* Spacer to avoid navbar overlap when logged in */
+.prof-nav-spacer {
+	height: 72px;
+}
+
+@media (max-width: 991.98px) {
+	.prof-nav-spacer {
+		height: 56px;
+	}
+}

@@ -1,0 +1,9 @@
+.custom-multi-select option {
+  padding: 5px;
+}
+
+/* Preview pills */
+.selected-preview {
+  display: flex;
+  flex-wrap: wrap;
+}

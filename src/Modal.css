@@ -1,0 +1,171 @@
+#createPostModal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#createPostModal textarea {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+}
+
+#createPostModal .user-info .user-profile {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 50%;
+}
+
+#createPostModal .user-info .info-cont .visibility-badge {
+    padding: 0.3rem 0.5rem;
+    background-color: #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#createPostModal .media-preview .media-single {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 6px;
+}
+
+#createPostModal .media-preview .media-single .media-img {
+    width: 140px;
+    border-radius: 6px;
+    height: 140px;
+}
+
+#createPostModal .media-preview .media-delete-btn {
+    position: absolute;
+    left: 0;
+    color: rgba(255, 0, 0, 0.8);
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+.invite-modal {
+    max-width: 500px;
+}
+
+.invite-modal .email-input-group {
+    position: relative;
+}
+
+.invite-modal .email-input-group .input-group {
+    display: flex;
+    align-items: center;
+}
+
+.invite-modal .email-input-group .form-control {
+    border-radius: 6px 0 0 6px;
+}
+
+.invite-modal .email-input-group .btn-outline-danger {
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+}
+
+.invite-modal .email-input-group .btn-outline-danger:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#createPostModal .media-preview .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#createPostModal .media-preview .progress-percentage {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+#createPostModal .modal-body.drag-over {
+    position: relative;
+    background-color: rgba(0, 123, 255, 0.1);
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#createPostModal .drag-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 123, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    border-radius: 8px;
+}
+
+#createPostModal .drag-overlay-content {
+    text-align: center;
+    color: #007bff;
+}
+
+#createPostModal .drag-overlay-content h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+#createPostModal .drag-overlay-content p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/* Edit Profile Photo Modal Drag and Drop Styles */
+.modal-body.drag-over {
+    position: relative;
+    background-color: rgba(0, 123, 255, 0.1);
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.modal-body .drag-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 123, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    border-radius: 8px;
+}
+
+.modal-body .drag-overlay-content {
+    text-align: center;
+    color: #007bff;
+}
+
+.modal-body .drag-overlay-content h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.modal-body .drag-overlay-content p {
+    margin-bottom: 0;
+    font-size: 14px;
+}

@@ -1,0 +1,88 @@
+.btn-main {
+    font-weight: 500;
+    padding: 0.5rem 1.1rem;
+    border-radius: 7px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-main:hover {
+    transition: 0.3s;
+}
+
+.btn-small {
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.btn-transparent:hover {
+    background-color: transparent;
+    color: #5B21B6;
+    border: 1px solid #5B21B6;
+}
+
+.btn-solid {
+    background-color: #5B21B6;
+    border: none;
+    color: #fff;
+    border: 1px solid #5B21B6;
+}
+
+.btn-solid:hover {
+    background-color: #fff;
+    color: #5B21B6;
+    border: 1px solid #5B21B6;
+}
+
+.btn-secondary {
+    background-color: #E5E7EB;
+    border: none;
+    color: #1F2937;
+    border: 1px solid #E5E7EB;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #5B21B6;
+    border: 1px solid #5B21B6;
+}
+
+.btn-danger {
+    background-color: #EF4444;
+    border: none;
+    color: #fff;
+    border: 1px solid #EF4444;
+}
+
+.btn-danger:hover {
+    background-color: #fff;
+    color: #EF4444;
+    border: 1px solid #EF4444;
+}
+
+.nav-pill {
+    padding: 0.5rem 0.2rem;
+    font-weight: 500;
+    color: #6B7280;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-pill.active {
+    color: #000;
+    border-bottom: 2px solid #5B21B6;
+}
+
+.nav-pill:hover {
+    transition: .3s;
+    color: #000;
+}

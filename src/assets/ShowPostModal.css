@@ -1,0 +1,196 @@
+/* === Modal Container === */
+#postDetailsModal .modal.modal-lg.fade {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#postDetailsModal .modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* === Modal Header === */
+#postDetailsModal .modal-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #eee;
+}
+
+#postDetailsModal .modal-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+}
+
+#postDetailsModal .btn-close {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* === Post Card === */
+#postDetailsModal .card-basic {
+  border: 1px solid #E5E7EB;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#postDetailsModal .card-basic.post-card {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* === User Info === */
+#postDetailsModal .user-post .post-profile-badge img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+}
+
+#postDetailsModal .info-cont .name {
+  font-weight: 600;
+  margin: 0;
+}
+
+#postDetailsModal .info-cont .time {
+  color: #6B7280;
+  font-size: 0.85rem;
+}
+
+/* === Post Description & Media === */
+#postDetailsModal .post-description p {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+#postDetailsModal .post-images img {
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* === Post Stats === */
+#postDetailsModal .post-stats {
+  margin-top: 1rem;
+}
+
+#postDetailsModal .btn-simple {
+  border: none;
+  background: none;
+  color: #6B7280;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+#postDetailsModal .btn-simple:hover {
+  background-color: #E5E7EB;
+  border-radius: 50%;
+}
+
+#postDetailsModal .fa-heart.text-danger {
+  color: #e0245e !important;
+}
+
+/* === Comment Section === */
+#postDetailsModal hr {
+  border: none;
+  height: 1px;
+  background-color: #8b8b8b;
+  margin: 1rem 0;
+}
+
+#postDetailsModal .post-comment-cont .top .dropdown-toggle {
+  font-size: 14px;
+  color: #6B7280;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#postDetailsModal .comment {
+  font-size: 14px;
+}
+
+#postDetailsModal .comment .comment-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#postDetailsModal .comment-cont .info {
+  padding: 0.7rem;
+  background-color: #f2f3f4;
+  border-radius: 10px;
+  min-width: 190px;
+}
+
+#postDetailsModal .comment-cont .info p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+}
+
+#postDetailsModal .comment-stats {
+  font-size: 12px;
+  color: #888;
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#postDetailsModal .comment-stats a {
+  color: #6B7280;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#postDetailsModal .comment-stats a.active,
+#postDetailsModal .comment-stats a:hover {
+  color: #5B21B6;
+  text-decoration: underline;
+}
+
+#postDetailsModal .comment-stats .like-count {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #888;
+}
+
+#postDetailsModal .input-submit-icon {
+  cursor: pointer;
+  color: #5B21B6;
+}
+
+/* === Add Comment Footer === */
+#postDetailsModal .add-comment-cont {
+  padding-top: 1rem;
+}
+
+#postDetailsModal .add-comment-cont .profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#postDetailsModal .add-comment-cont input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #f2f3f4;
+  font-size: 14px;
+}
